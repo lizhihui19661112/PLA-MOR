@@ -2,7 +2,7 @@ The software is the implementation of "Fast Multiple Output Regression Based on 
 
 Author: Zhihui Li (lizhihui@hrbeu.edu.cn,187263204@qq.com)
 
-The main programs and functions of PLA-MOR package show as follows. Other programs are the sub-fuctions called by the main programs.
+The main programs and functions of PLA-MOR package show as follows. Other programs are the sub-fuctions called by the main programs.To test the regression software two programs can be excuted immediately, one is "demo.m", the other is "testRrmse.m".
 
 aresbuildLineSeg.m	MOR model building by the proposed method.
 arespredictLineSeg.m	Output predicting according to MOR model built by "aresbuildLineSeg.m".
