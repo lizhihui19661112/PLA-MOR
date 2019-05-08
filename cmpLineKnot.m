@@ -25,9 +25,9 @@ for yDime=1:size(Ytr,2)
         newSeglistIdx = linesegNum(pts, seglistIdx,knotNum);
         newKnotListIdx{xDime,yDime}=newSeglistIdx;
         newKnotList{xDime,yDime}=[pts(newSeglistIdx,2) pts(newSeglistIdx,1)];
-        plot(xSort,ySort,'b+');
-        hold on 
-        plot(seglist(:,2),seglist(:,1),'r');        
+%         plot(xSort,ySort,'b+');
+%         hold on 
+%         plot(seglist(:,2),seglist(:,1),'r');        
     end
 end
 % plot(xSort,ySort,'b+');
